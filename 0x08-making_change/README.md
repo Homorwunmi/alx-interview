@@ -2,17 +2,6 @@
 
 AlgorithmPython
 
--   Weight:  1
--   Project over - took place from  Sep 17, 2024 6:00 AM  to  Sep 20, 2024 6:00 AM
--   An auto review will be launched at the deadline
-
-#### In a nutshell…
-
--   **Auto QA review:**  0.0/16 mandatory
--   **Altogether:**  **0.0%**
-    -   Mandatory: 0.0%
-    -   Optional: no optional tasks
-
 For the “0. Change comes from within” project, you will tackle a classic problem from the domain of dynamic programming and greedy algorithms: the coin change problem. The objective is to find the minimum number of coins required to make up a given total amount, given a list of coin denominations. This project challenges you to apply your understanding of algorithms to devise a solution that is not only correct but also efficient. Below are the key concepts and resources necessary to complete this project successfully.
 
 ### Concepts Needed:
@@ -53,9 +42,6 @@ For the “0. Change comes from within” project, you will tackle a classic pro
 
 By thoroughly understanding these concepts and utilizing the provided resources, you will be well-prepared to tackle the coin change problem. You will need to decide whether a greedy algorithm suffices for your particular set of coin denominations or if a more comprehensive dynamic programming approach is necessary to ensure correctness and efficiency. This project not only tests algorithmic skills but also reinforces the importance of choosing the right strategy based on problem constraints.
 
-## Additional Resources
-
--   [Mock Technical Interview](https://intranet.alxswe.com/rltoken/ktLaKIVRkq_-byFO-_-aGg "Mock Technical Interview")
 
 ## Requirements
 
