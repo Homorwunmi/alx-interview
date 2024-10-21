@@ -5,13 +5,14 @@ Module to fnd the minimum number of coins
 required to make up a given atotal amount
 """
 
+
 def makeChange(coins, total):
     """This function calculates the fewest number of coins to make change.
-    
+
     Args:
         coins (list): list of available coin denominations to make change from
         total (int): given the total amount to make change for
-        
+
     Returns:
         int: The fewest number of coins needed to make change
     """
@@ -28,4 +29,3 @@ def makeChange(coins, total):
         return -1
     else:
         return count
-    
