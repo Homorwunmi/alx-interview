@@ -16,7 +16,7 @@ def sieveOfErastosthenes(n):
     Returns:
         int: number of prime numbers in the given range
     """
-    prime = [True for i in range (n + 1)]
+    prime = [True for i in range(n + 1)]
     p = 2
     count = 0
 
@@ -34,7 +34,7 @@ def sieveOfErastosthenes(n):
 
 def isWinner(x, nums):
         """
-        This function finds the winner of a prime number game problem
+        This function finds the winner of a prime number game
         after a number of rounds
 
         Args:
@@ -46,14 +46,14 @@ def isWinner(x, nums):
         maria = 0
 
         for i in range(x):
-             primeCount = sieveOfErastosthenes(nums[i])
-             if primeCount % 2 == 0:
-                  ben += 1
-             else:
-                  maria += 1
+                primeCount = sieveOfErastosthenes(nums[i])
+                if primeCount % 2 == 0:
+                    ben += 1
+                else:
+                    maria += 1
         if ben > maria:
-             return("Ben")
+            return("Ben")
         elif maria > ben:
-             return("Maria")
+            return("Maria")
         else:
-             return None
+            return None
